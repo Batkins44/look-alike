@@ -10,6 +10,22 @@ function getCookieData() {
    });
 }
 
+$("#cookie-1").hover(() =>{
+    $("#best-banner-home").addClass("is-hidden");
+});
+
+$("#cookie-1").mouseleave(() =>{
+    $("#best-banner-home").removeClass("is-hidden");
+});
+
+$("#cookie-3").hover(() =>{
+    $("#new-banner-home").addClass("is-hidden");
+});
+
+$("#cookie-3").mouseleave(() =>{
+    $("#new-banner-home").removeClass("is-hidden");
+});
+
 
 $(document).ready(function(){
     $('#carousel').carousel({
