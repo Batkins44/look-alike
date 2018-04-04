@@ -1,0 +1,64 @@
+{
+    "Cookies": [
+      {
+        "Name": "JAM & POPPY SEED BITES",
+        "SKU": "0001",
+        "Price": "$1.00"
+      },
+      {
+        "Name": "POPPY SEEDS BITES",
+        "SKU": "0002",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "OATMEAL BITES",
+        "SKU": "0003",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "SOFT BUTTER COOKIES",
+        "SKU": "0004",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "PARMESAN BITES",
+        "SKU": "0005",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "WHITE CHOCOLATE BITES",
+        "SKU": "0006",
+        "Price": "$1.00"
+      },
+      {
+        "Name": "JAM BITES",
+        "SKU": "0007",
+        "Price": "$1.00"
+      },
+      {
+        "Name": "CHOCOLATE CHIPS",
+        "SKU": "0008",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "NUTS & CARAMEL BITES",
+        "SKU": "0009",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "BUTTER COOKIES",
+        "SKU": "0010",
+        "Price": "$1.00"
+      },
+      {
+        "Name": "PECAN NUT BITES",
+        "SKU": "0011",
+        "Price": "$2.00"
+      },
+      {
+        "Name": "SEEDS BITES",
+        "SKU": "0012",
+        "Price": "$2.00"
+      }
+    ]
+  }
