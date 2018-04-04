@@ -3,62 +3,86 @@
       {
         "Name": "JAM & POPPY SEED BITES",
         "SKU": "0001",
-        "Price": "$1.00"
+        "Price": "$1.00",
+        "image1":"images/jam_poppy.png",
+        "image2":"images/jam_poppy.png"
       },
       {
         "Name": "POPPY SEEDS BITES",
         "SKU": "0002",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/poppy_seeds_780.png",
+        "image2":"images/poppy_seeds-qv.png"
       },
       {
         "Name": "OATMEAL BITES",
         "SKU": "0003",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/oatmeal_bites.png",
+        "image2":"images/oatmeal_bites-qv.png"
       },
       {
         "Name": "SOFT BUTTER COOKIES",
         "SKU": "0004",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/soft_butter.png",
+        "image2":"images/soft_butter-qv.png"
       },
       {
         "Name": "PARMESAN BITES",
         "SKU": "0005",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/parm.png",
+        "image2":"images/parm-qv.png"
       },
       {
         "Name": "WHITE CHOCOLATE BITES",
         "SKU": "0006",
-        "Price": "$1.00"
+        "Price": "$1.00",
+        "image1":"images/white-choc.png",
+        "image2":"images/white-choc-qv.png"
       },
       {
         "Name": "JAM BITES",
         "SKU": "0007",
-        "Price": "$1.00"
+        "Price": "$1.00",
+        "image1":"images/jam_bites.png",
+        "image2":"images/jam_bites-qv.png"
       },
       {
         "Name": "CHOCOLATE CHIPS",
         "SKU": "0008",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/choc_chips.png",
+        "image2":"images/choc_chips-qv.png"
       },
       {
         "Name": "NUTS & CARAMEL BITES",
         "SKU": "0009",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/nuts_caramer",
+        "image2":"images/nuts_caramel.qv.png"
       },
       {
         "Name": "BUTTER COOKIES",
         "SKU": "0010",
-        "Price": "$1.00"
+        "Price": "$1.00",
+        "image1":"images/butter.png",
+        "image2":"images/butter-qv.png"
       },
       {
         "Name": "PECAN NUT BITES",
         "SKU": "0011",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/pecan_nuts.png",
+        "image2":"images/pecan_nuts-qv.png"
       },
       {
         "Name": "SEEDS BITES",
         "SKU": "0012",
-        "Price": "$2.00"
+        "Price": "$2.00",
+        "image1":"images/seeds.png",
+        "image2":"images/seeds-qv.png"
       }
     ]
   }
