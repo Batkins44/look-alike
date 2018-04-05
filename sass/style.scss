@@ -1,3 +1,5 @@
+@import 'cookie-types';
+
 $ltBlue:#bddce3;
 $lterBlue:#c0e8dd;
 $lavender:#d2d5ea;
@@ -9,7 +11,9 @@ $drkLav:#d29fbb;
 $primaryFont: 'Nunito', sans-serif;
 $secondaryFont: 'PT Serif', serif;
 
-
+html{
+    width:97%;
+}
 
 body{
     margin-left:80px;
@@ -20,9 +24,28 @@ body{
 h2{
     font-size:28px;
     font-family:$primaryFont;
-    font-weight:bold;
+    text-align:center;
+    padding-top:30px;
 }
 
+h6{
+    width: 918px;; 
+    text-align: center; 
+    border-bottom: 1px solid $black; 
+    line-height: 0.1em;
+    margin: 74px 0 65px;
+    margin-left:135px;
+    
+}
+
+h6 span{
+    background:#fff; 
+    padding:0 10px;
+    border-top: 1px solid $black;
+    border-bottom:1px solid $black;
+    border-left:1px solid $black;;
+    border-right:1px solid $black;
+}
 #best{
     text-align:center;
     margin-top:91px;
@@ -130,51 +153,12 @@ li{
 
 #three-cookies{
     display:flex;
-    text-align:center;
     margin-left:120px;
+    margin-top:37px;
+    position:relative;
 }
 
-#cookie-1{
-    height:318px;
-    width:288px;
-    background-image: url('../images/white_choc-739.png');
-    background-size: 288px 318px;
-}
 
-#cookie-1:hover{
-    height:318px;
-    width:288px;
-    background-image: url('../images/white_choc-qv_739.png');
-    background-size: 288px 318px;
-}
-
-#cookie-2{
-    height:318px;
-    width:288px;
-    background-image: url('../images/oatmeal_bites.png');
-    background-size: 288px 318px;
-}
-
-#cookie-2:hover{
-    height:318px;
-    width:288px;
-    background-image: url('../images/oatmeal_bites-qv.png');
-    background-size: 288px 318px;
-}
-
-#cookie-3{
-    height:318px;
-    width:288px;
-    background-image: url('../images/jam_poppy.png');
-    background-size: 288px 318px;
-}
-
-#cookie-3:hover{
-    height:318px;
-    width:288px;
-    background-image: url('../images/jam_poppy-qv.png');
-    background-size: 288px 318px;
-}
 
 .best-banner{
     background-color:#573148;
@@ -185,6 +169,8 @@ li{
     color:white;
     font-family:$secondaryFont;
     font-size:12px;
+    vertical-align: middle;
+    line-height: 22px;
 }
 
 .new-banner{
@@ -194,22 +180,113 @@ li{
     color:white;
     font-family:$secondaryFont;
     font-size:12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42px;
 
 }
 
-.new-banner{
-    text-align: center;
+.quick{
+    position:absolute;
+    bottom:0;
+    width:288px;
+    height:45px;
+    background-color:$ltGray;
+    text-align:center;
     vertical-align: middle;
     line-height: 42px;
 }
 
 
 
-.flex-item{
+
+
+.flex-cookie{
 
     margin-right:27px;
+    margin-bottom:17px;
+    position:relative;
+}
+
+.flex-item{
+    text-align:center;
+    margin-right:27px;
+    width:288px;
+    margin-top:15px;
+    font-family:$primaryFont;
+    font-weight:bold;
+    font-size:14px;
+
 }
 
 .is-hidden{
     display:none;
 }
+
+#more-bites{
+    width:1120px;
+    height:344px;
+    background-color:$ltGray;
+    z-index:-1;
+
+}
+
+#bites-photos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:-246px;
+}
+
+.bites-img{
+    width:283px;
+    height:283px;
+    padding:12px;
+}
+
+footer{
+    width:1120px;
+    height:371px;
+    background-color:$ltGray;
+    margin-top:73px;
+    position:relative;
+    font-family:$secondaryFont;
+    font-weight:bold;
+    // display:inline-block;
+}
+
+#footer-head{
+    font-family:$primaryFont;
+    font-weight:normal;
+}
+
+#footer-container{
+    position:absolute;
+    left:74px;
+    top:74px;
+    display:inline;
+
+}
+
+#social-media{
+    position:absolute;
+    display:flex;
+    left:775px;
+}
+
+
+
+#products{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:80px;
+    position:relative;
+    background-color:$ltGray;
+    padding-top:120px;
+}
+
+// .flex-product{
+//     margin-right:27px;
+//     margin-bottom:14px;
+
+// }
